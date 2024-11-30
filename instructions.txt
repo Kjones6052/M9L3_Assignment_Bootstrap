@@ -1,0 +1,43 @@
+1. Exploring Bootstrap Typography and Colors
+Objective: The aim of this assignment is to familiarize students with Bootstrap's typography and color classes and their application in web design.
+
+Problem Statement:
+
+As a budding web developer, you are tasked with enhancing the typography and color scheme of a basic web page using Bootstrap. Your goal is to 
+understand how Bootstrap's typography classes can style text elements effectively and how its color palette can be utilized to create visually 
+appealing designs. Note: You can enhance any of the pages created on previous assignments or create a new one, it's up to you!
+
+Task 1: Apply Bootstrap typography classes to headings and paragraphs.
+status: COMPLETE
+
+Task 2: Utilize Bootstrap color classes to style links and buttons.
+status: COMPLETE
+
+Task 3: Experiment with Bootstrap's text alignment and emphasis classes.
+status: COMPLETE
+
+Task 4: Customize the background and text color of various sections using Bootstrap's color utilities.
+status: COMPLETE
+
+Task 5: Create a responsive table with alternate row colors using Bootstrap's table classes.
+status: COMPLETE
+
+2. Enhancing Web Pages with Bootstrap Images and Layouts
+Objective: The objective of this assignment is to enable students to incorporate images effectively and structure layouts using Bootstrap's image 
+and layout classes.
+
+Problem Statement:
+
+As a web developer, your task is to improve the visual appeal and layout structure of a basic web page by integrating images and implementing 
+responsive layouts using Bootstrap. You are required to understand how Bootstrap's image classes can enhance the presentation of visual content 
+and how its layout classes can facilitate responsive design. Note: You can enhance any of the pages created on previous assignments or create a 
+new one, it's up to you!
+
+Task 1: Incorporate responsive images using Bootstrap's image classes.
+status: COMPLETE
+
+Task 2: Create a grid layout for image gallery using Bootstrap's grid system.
+status: COMPLETE
+
+Task 3: Implement a responsive footer with relevant information and links.
+status: COMPLETE

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment for Bootstrap Layout, Module 9 Lesson 2">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="bg-primary">
+
+    <section>
+        <!-- Header Section -->
+        <header class="container-fluid bg-custom">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-1 text-uppercase"><strong>Tech Solutions</strong></h1>
+                    <p><em>Where all your tech problems are solved</em></p>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <section>
+        <!-- About Section -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <h2 class="display-2">About Tech Solutions</h2>
+                    <p class="lead text-white">
+                        Tech Solutions is a leading tech services company in California, boasting over 50 years of experience in the 
+                        tech services industry. Our service-focused mentality and commitment to innovative technological solutions is what evolves 
+                        our client relationships into partnerships, decade after decade. Our extended knowledge base across a broad range of tech 
+                        services and industries is what helps us deliver innovation and excellence for every company we serve.
+
+                        It has been our mission to be a company that brings best-in-class tech services to buildings and businesses across CA 
+                        and will continue to be today, tomorrow and every day after that.
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="sidebar.jpg" class="img-fluid rounded mx-auto d-block" alt="tech solutions" width="500" height="500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section>
+        <div class="container-fluid text-center bg-secondary">
+            <h2 class="display-2"><u>Services Offered</u></h2>
+        </div>
+        <div class="container-fluid bg-secondary-subtle">
+            <div class="row">
+                <div class="col">
+                    <!-- image -->
+                    <img src="cloudservices.png" class="img-fluid rounded mx-auto d-block" alt="icon for cloud services">
+                </div>
+                <div class="col">
+                    <!-- title -->
+                    <h3 class="display-3 text-center">Cloud Services</h3>
+                </div>
+                <div class="col">
+                    <!-- description -->
+                    <p class="text-body-emphasis">
+                        Cloud services provide many ways for business team members to interact with the technology they need. The cloud is an 
+                        internet-connected platform that can store and access information and programs. Since the cloud stores the information 
+                        instead of holding it on a computer, team members can access and use it whether at home or in the office. Some cloud 
+                        services can even run operation systems remotely, allowing team members to use internal business programs remotely without 
+                        installing them on their computers.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary-subtle">
+            <div class="row">
+                <div class="col">
+                    <!-- image -->
+                    <img src="backupicon.jpg" class="img-fluid rounded mx-auto d-block" alt="icon for backup solutions">
+                </div>
+                <div class="col">
+                    <!-- title -->
+                    <h3 class="display-3 text-center">Backup Solutions</h3>
+                </div>
+                <div class="col">
+                    <!-- description -->
+                    <p class="text-body-emphasis">
+                        Backup solutions protect information loss from occurring by storing copies of data on external hardware or online 
+                        platforms, such as a cloud service. Information backup services can help protect your business' information should any 
+                        issues occur, like a power outage or system failure. Many information backup services exist, such as file backup, server 
+                        backup and even desktop backup. Businesses can schedule automatic backups for their files to save the most recent versions 
+                        of the files they create to ensure data is secure.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-secondary-subtle">
+            <div class="row">
+                <div class="col">
+                    <!-- image -->
+                    <img src="remotesupport.jpg" class="img-fluid rounded mx-auto d-block" alt="icon for remote support">
+                </div>
+                <div class="col">
+                    <!-- title -->
+                    <h3 class="display-3 text-center">Remote Support</h3>
+                </div>
+                <div class="col">
+                    <!-- description -->
+                    <p class="text-body-emphasis">
+                        Many IT services can provide technical support remotely. For instance, if one of your devices experiences an issue, IT 
+                        services can access it through the internet to troubleshoot and repair it. Remote support allows them to find and repair 
+                        issues more quickly and can apply to multiple devices, including most mobile devices. Having IT services with remote 
+                        support capabilities can reduce the time to update applications and repair technical errors so your work can continue with 
+                        minimal interruption.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Table Section -->
+    <section class="container-fluid">
+        <h2 class="h4 text-white">Additional Services Offered</h2>
+        <table class="table table-striped table-light table-bordered border-primary">
+            <tbody>
+                <tr>
+                    <td>Voice over internet protocol (VoIP)</td>
+                    <td>Network security</td>
+                    <td>Information reporting</td>
+                </tr>
+                <tr>
+                    <td>Hardware installations and maintenance</td>
+                    <td>Email services</td>
+                    <td>Software as a service</td>
+                </tr>
+                <tr>
+                    <td>Troubleshooting and technical support</td>
+                    <td>Technology training</td>
+                    <td>Software development</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="container-fluid text-center">
+        <div class="row">
+            <div class="col">
+                <img src="voip.webp" class="img-thumbnail" alt="voice over internet protocol">
+            </div>
+            <div class="col">
+                <img src="netsecure.webp" class="img-thumbnail" alt="network security">
+            </div>
+            <div class="col">
+                <img src="reporting.webp" class="img-thumbnail" alt="Information reporting">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="hardware.webp" class="img-thumbnail" alt="Hardware installations and maintenance">
+            </div>
+            <div class="col">
+                <img src="email.webp" class="img-thumbnail" alt="Email services">
+            </div>
+            <div class="col">
+                <img src="saas.webp" class="img-thumbnail" alt="Software as a service">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="support.webp" class="img-thumbnail" alt="Troubleshooting and technical support">
+            </div>
+            <div class="col">
+                <img src="training.webp" class="img-thumbnail" alt="Technology training">
+            </div>
+            <div class="col">
+                <img src="software.webp" class="img-thumbnail" alt="Software development">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for a contact form that includes fields for Name, Email, Service, and Message Box -->
+    <section class="container-fluid" id="contactus">
+        <form action="" style="border: 2px solid black;" class="bg-info">
+            <legend class="display-4">Contact Form</legend>
+            <!-- Field for Name -->
+             <fieldset>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Name">
+                </div>
+            </fieldset>
+            <!-- Field for Email -->
+            <fieldset>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="emailaddress@example.com">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+            </fieldset>
+            <!-- Field for Service -->
+            <fieldset>
+                <div class="mb-3">
+                    <label for="service" class="form-label">Service</label>
+                    <input type="text" id="service" class="form-control" placeholder="Service">
+                </div>
+            </fieldset>
+            <!-- Field for Message -->
+            <fieldset>
+                <div class="mb-3">
+                    <span class="input-group-text">Message</span>
+                    <textarea class="form-control" aria-label="Message" placeholder="Enter Message Here"></textarea>
+                </div>
+            </fieldset>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-dark btn-lg">Submit</button>
+        </form>
+    </section>
+
+    <!-- Part 2 Task 4 -->
+    <footer>
+        <div class="container-fluid bg-body-secondary">
+            <div class="row">
+                <div class="col text-center">
+                    <p><a class="link-offset-3" href="#contactus">Contact Us</a></p>
+                </div>
+                <div class="col text-center">
+                    <p><a class="link-offset-3" href="">LinkedIn</a></p>
+                </div>
+                <div class="col text-center">
+                    <p><a class="link-offset-3" href="">Sign Up for Newsletter</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
